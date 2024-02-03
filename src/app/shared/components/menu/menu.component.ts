@@ -28,7 +28,7 @@ export class MenuComponent {
               {
                 label:'No Comunes',
                 icon:'pi pi-globe',
-                routerLink: 'uncommons'
+                routerLink: 'uncommon'
               }
             ]
           },
