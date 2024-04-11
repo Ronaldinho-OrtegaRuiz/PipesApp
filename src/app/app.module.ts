@@ -6,6 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
+import localeEsCo from '@angular/common/locales/es-CO';
+import localeFrCA from '@angular/common/locales/fr-CA';
+
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localeEsCo);
+registerLocaleData(localeFrCA);
 
 @NgModule({
   declarations: [
