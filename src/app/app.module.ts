@@ -25,7 +25,11 @@ registerLocaleData(localeFrCA);
     SharedModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    {
+      provide: 'LOCALE_ID',
+      useValue: 'es-CO'
+    }
   ],
   bootstrap: [AppComponent]
 })
